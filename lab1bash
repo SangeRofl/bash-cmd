@@ -1,0 +1,5 @@
+echo "Type date: "
+read x
+echo "Type path: "
+read y
+find -newerBt "$x 23:59:59" -exec cp \{\} $y \;
