@@ -1,0 +1,3 @@
+set /p x="Type date: "
+set /p y="Type path: "
+xcopy /Y/D:%x% *.* %y%
